@@ -10,7 +10,8 @@ Resources:
       Description: AWS SDK 2.713.0
       ContentUri: ./layer
       CompatibleRuntimes:
-        - nodejs12.x
+        - nodejs14.x
+        - nodejs16.x
       LicenseInfo: 'Available under the MIT-0 license.'
       RetentionPolicy: Retain
     
