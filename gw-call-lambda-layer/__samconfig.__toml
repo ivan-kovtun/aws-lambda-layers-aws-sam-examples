@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "gw-sharp-layer"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-13q6al8j5531v"
+s3_prefix = "gw-sharp-layer"
+region = "eu-west-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []

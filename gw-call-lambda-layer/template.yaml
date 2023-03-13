@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Lambda Client Layer
+
+Resources:
+  SDKlayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: Lambda-Client-v3
+      Description: Lambda Client 3.0
+      ContentUri: ./layer
+      CompatibleRuntimes:
+        - nodejs16.x
+      LicenseInfo: 'Available under the MIT-0 license.'
+      RetentionPolicy: Retain
+    Metadata:
+      BuildMethod: nodejs16.x
