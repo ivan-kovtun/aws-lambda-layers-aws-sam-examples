@@ -1,0 +1,14 @@
+{
+  "name": "oauth-layer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "oauth-1.0a": "^2.2.6"
+  }
+}
