@@ -1,17 +1,19 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: AWS SDK Layer
+Description: Oauth1 Layer
 
 Resources:
   SDKlayer:
     Type: AWS::Serverless::LayerVersion
     Properties:
-      LayerName: AWS-SDK-v3_289
-      Description: AWS SDK 3.289.0
+      LayerName: Oauth-v2_2_6
+      Description: Oauth v 2.2.6
       ContentUri: ./layer
       CompatibleRuntimes:
         - nodejs16.x
         - nodejs18.x
+        - nodejs20.x
+        - nodejs22.x
       LicenseInfo: 'Available under the MIT-0 license.'
       RetentionPolicy: Retain
     
